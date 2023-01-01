@@ -1,6 +1,205 @@
-p {
-    display: flex;
-    font-size: 4rem;
-    background: red;
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Crimson+Text:ital@1&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+body {
+    background-image: url(./sunrise-illustration-digital-art-uhdpaper.com-4K-4.1963.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        width: 100%;
+        height: 100%;
+    margin: 0px;
+    
 }
+
+html {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    height: 1000px;
+}
+
+.profile-2 {
+
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 170px  170px;
+    column-gap: 20px;
+    row-gap: 10px;
+    border-radius: 5px;
+    background: #293462;
+
+}
+
+.pr {
+    font-family: 'Prosto One', cursive;
+    font-size: 2rem;
+}
+
+.img-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+    box-shadow:  0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.img-2:hover {
+    transition: 1s ease;
+    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+.home {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.border {
+    margin-top: 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+    /*background: #293462;*/
+
+}
+
+.home-2 {
+    display: flex;
+    flex-direction: column;
+    background: #293462;
+    width: 1020px;
+    height: 80px;   
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+    font-family: 'Chivo Mono', monospace;
+    margin-bottom:50px;
+}
+
+.home-3 {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+        flex-direction: row;
+        column-gap: 50px;
+        justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.rectangulo {
+    margin-top: 10px;
+    background-color: #0A2647;
+    width: 100%;
+    height: 10px;
+    animation-name: bara;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    transition: 3s ease;
+}
+
+@keyframes bara {
+   
+
+    20% {
+        transition: 1s ease;
+        background: linear-gradient(60deg, #144272, #205295, #2C74B3 30%);
+        box-shadow: 0 0 20px #4B56D2,
+                0 0 5px #4B56D2,
+                0 0 15px #4B56D2,
+                0 0 40px #4B56D2;
+    }
+
+    40% {
+        transition: 1s ease;
+        background: linear-gradient(60deg, #144272, #205295, #2C74B3 30%);
+            box-shadow: 0 0 20px #4B56D2,
+                0 0 5px #4B56D2,
+                0 0 15px #4B56D2,
+                0 0 40px #4B56D2;
+    }
+
+    60% {
+        transition: 1s ease;
+        background: linear-gradient(60deg, #472183, #4B56D2, #82C3EC 30%);
+            box-shadow: 0 0 20px #4B56D2,
+                0 0 5px #472183,
+                0 0 15px #4B56D2,
+                0 0 40px #82C3EC;
+    }
+
+    80% {
+        transition: 1s ease;
+        background: linear-gradient(60deg, #3F3B6C, #624F82, #9F73AB 30%);
+            box-shadow: 0 0 20px #4B56D2,
+                0 0 5px #3F3B6C,
+                0 0 15px #624F82,
+                0 0 40px #9F73AB;
+    }
+
+    100% {
+        transition: 1s ease;
+        background: linear-gradient(60deg, #1A374D, #406882, #6998AB 30%);
+            box-shadow: 0 0 20px #4B56D2,
+                0 0 5px #1A374D,
+                0 0 15px #406882,
+                0 0 40px #6998AB;
+    }
+}
+
+.home-4 {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+        height: 50px;
+        background-color: #4B56D2;
+        border-radius: 50px;
+}
+
+.home-4:hover {
+    transition: .5s ease;
+    box-shadow: 0 0 20px #0D4C92,
+            0 0 10px #0D4C92,
+            0 0 30px #0D4C92,
+            0 0 50px #0D4C92;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    /*background-color: #453C67;*/    
+
+}
+
+.home-btn:hover {
+    border-bottom: 3px solid #453C67 ;
+    transition: .5s ease;
+    
+
+}
+
+.max {
+    display: flex;
+    justify-content: center;
+    border: 3px solid #0A2647;
+}
+
+
+
