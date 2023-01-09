@@ -21,7 +21,7 @@ html {
 
 .profile {
     width: 100%;
-    height: 1000px;
+    height: 3000px;
 }
 
 .profile-2 {
@@ -30,7 +30,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     background: #293462;
     margin-top: 0px;
 }
@@ -197,6 +196,8 @@ html {
     }
 }
 
+
+
 .home-4 {
     display: flex;
     justify-content: center;
@@ -234,6 +235,7 @@ html {
 
 
 .ab {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
     padding-top:100px ;
     background: #293462;
     width: 100%;
@@ -308,5 +310,42 @@ html {
     margin-bottom: 0px;
 }
 
+.bio {
+    
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    width: 100%;
+    height: 2000px;
+    background: #293462 ;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
 
+}
 
+.bio-1 {
+    margin-top: 60px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    border: 2px solid #9708CC;    
+}   
+
+.bio-2 {    
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid #623AA2;
+    width: 960px;
+}
+
+.bio-3 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 3.2rem;
+    
+}
+
+.bio-4 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 5rem;
+}
