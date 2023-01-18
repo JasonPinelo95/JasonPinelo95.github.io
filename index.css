@@ -58,6 +58,11 @@ html {
     border: 50% solid transparent;
     border-radius:10px ;
     margin-bottom: 50px;
+
+    box-shadow: 0 0px 2px #FAB2FF,
+            0px 0px 04px #BC78EC,
+            0px 0px 8px #FAB2FF,
+            0px 0px 15px #BC78EC;
 }
 
 .pr-4 {
@@ -274,6 +279,10 @@ html {
     justify-content: center;
     align-items: center;
     font-family: 'Chivo Mono', monospace;
+    box-shadow:  0 0px 2px #92FFC0,
+            0px 0px 04px #92FFC0,
+            0px 0px 8px #92FFC0,
+            0px 0px 15px #92FFC0;
 }
 
 
@@ -287,6 +296,10 @@ html {
     border: 2px solid #CA26FF;
     border-radius: 1rem;
     font-family: 'Chivo Mono', monospace;
+    box-shadow:  0 0px 2px #CA26FF,
+            0px 0px 04px #CA26FF,
+            0px 0px 8px #CA26FF,
+            0px 0px 15px #CA26FF;
     
         
 }
@@ -297,6 +310,7 @@ html {
     flex-direction: column;
     align-items: center;
     border-bottom: 1px solid #EECE13;
+    
     margin-bottom: 10px;
 }
 
