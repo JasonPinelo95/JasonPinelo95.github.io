@@ -2,7 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* You can keep this in case the image doesn't cover the entire viewport or is transparent */
+    background-image: url('https://media.dialektika.org/dialektika/2021/11/Ludwig-Wittgenstein-portrait-e1635867322413.jpg');
+    background-repeat: repeat; /* This allows the image to repeat both horizontally and vertically */
     color: #333;
 }
 
@@ -36,7 +38,7 @@ nav a:hover {
 }
 
 header {
-    background-color: #333;
+    background-color: #2281b477;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
