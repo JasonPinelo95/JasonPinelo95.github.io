@@ -5,7 +5,22 @@ body {
     background-color: #f4f4f4; /* You can keep this in case the image doesn't cover the entire viewport or is transparent */
     background-image: url('https://media.dialektika.org/dialektika/2021/11/Ludwig-Wittgenstein-portrait-e1635867322413.jpg');
     background-repeat: repeat; /* This allows the image to repeat both horizontally and vertically */
+    background-size: auto; /* default size for large devices (desktop) */
     color: #333;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+    body {
+        background-size: 150%; /* Increase or adjust size as per your design for tablets */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    body {
+        background-size: 200%; /* Increase or adjust size as per your design for mobile phones */
+    }
 }
 
 nav {
