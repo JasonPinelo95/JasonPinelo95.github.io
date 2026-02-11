@@ -1,0 +1,6 @@
+title: Jason's Site
+description: Personal blog & opinions
+author: Jason
+lang: es
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
